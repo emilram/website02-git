@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #CDFADB;
+}
+nav{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 3px;
+    color: #003256;
+    text-transform: uppercase;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #f73535;
+    font-size: 15px;
+    padding: 8px;
+    transition: all .50s ease;
+} 
+nav ul li a:hover{
+    color: #f73535;
+    
+    background-color:#BED1CF ;
+    padding: 8px;
+    border-radius: 14px;
+    border: 1px solid black;
+}
+.text{
+    margin-left: 7%;
+    margin-top: 12%;
+
+}.text h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #f73535;
+    text-transform: capitalize;
+}
+span{
+    color: #003256;
+}
+.text p{
+    line-height: 30px;
+    color: #003256;
+}
+.text a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 15px 0;
+    display: inline-block;
+    background-color: #f73535;
+    border: 2px solid #f73535 ;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.text a:hover{
+    background-color: transparent;
+    color: #003256;
+    border: 2px solid #003256 ;
+    transition: .5s;
+}
